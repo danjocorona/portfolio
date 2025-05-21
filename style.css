@@ -73,3 +73,21 @@ body {
     border: 2px solid #ccc;
     border-radius: 10px;
   }
+
+  .project-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.project-text {
+  max-width: 400px;
+  font-size: 16px;
+}
+
+.project-frame {
+  flex-shrink: 0;
+}
