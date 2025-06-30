@@ -91,3 +91,10 @@ body {
 .project-frame {
   flex-shrink: 0;
 }
+
+.content {
+  max-width: 800px;
+  margin: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
